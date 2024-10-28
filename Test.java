@@ -9,5 +9,6 @@ public class Test {
         Arrays.stream(array).forEach(a -> System.out.print(a +" "));
         System.out.println("\nSorted Array: ");
         Arrays.stream(array).sorted().forEach(a -> System.out.print(a +" "));
+        System.out.println();
     }
 }
